@@ -1,0 +1,512 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+
+/* Головне меню */
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+ 
+}
+
+.colornav {
+ background-color: #71A1D1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left img,
+.navbar-right img {
+    height: 70px; 
+    width: auto;
+}
+
+.navbar_c {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	font-size: 20px;
+	color: #fff;
+}
+
+.navbar_c li {
+    display: inline;
+    margin-right: 80px; 
+}
+
+.navbar_c li:last-child {
+    margin-right: 0;
+}
+
+
+.navbar_c li a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.navbar_c li a:hover {
+    color: #81D0E8;
+}
+
+.navbar_cc {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	font-size: 23px;
+	color: #fff;
+	margin-left: 140px;
+
+}
+
+.navbar_cc li {
+    display: inline;
+    margin-right: 80px; 
+}
+
+.navbar_cc li:last-child {
+    margin-right: 0;
+}
+
+
+.navbar_cc li a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.navbar_cc li a:hover {
+    color: #81D0E8;
+}
+
+
+
+
+
+
+
+
+
+#rectangle {
+	width: 2200px;
+	height: 120px;
+	background-color: rgb(129, 208, 232, 0.5);
+}
+
+#rectangle1 {
+	width: 2200px;
+	height: 3120px;
+	background-color: rgb(129, 208, 232, 0.5);
+}
+
+#rectangle2 {
+	width: auto;
+	height: auto;
+	background-color: rgb(113, 161, 209);
+	border-radius: 50px;
+}
+
+.navbarr {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background-color: rgb(129, 208, 232, 0.5);
+	margin-top: -48px;
+}
+
+.navbarr .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarrr {
+    width: 100%;
+    height: auto;
+    background-color: rgb(129, 208, 232, 0.5);
+}
+
+.navbarrr .container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarrra {
+    width: 100%;
+    height: 50px;
+
+}
+
+.navbarrra .container {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-user {
+	display: inline-block;
+	justify-content: space-between;
+}
+
+.colorfooter {
+	background-color: #71A1D1;
+    align-items: center; /* Додайте цей рядок */
+}
+
+
+
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+
+/* Increase the font-size of a span element */
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+	margin-left: 40px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+
+
+.textcard {
+	margin-top: 40px;
+	margin-left: 285px;
+	margin-right: 50px;
+	font-size: 20px;
+	color: #fff;
+}
+
+
+.textcardd {
+	font-size: 20px;
+    margin-right: 15px;
+	margin-left: 245px;
+	color: #81D0E8;
+
+}
+
+.textcarddd {
+	margin-top: 45px;
+	font-size: 20px;
+    margin-right: 15px;
+	margin-left: 245px;
+	color: #81D0E8;
+}
+
+@media (max-width: 991px) {
+    .textcard {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .textcardd,
+    .textcarddd {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    img.user-avatar {
+        display: none;
+    }
+}
+
+
+  .button {
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 15px;
+	margin-top: 10px;
+  }
+
+.textfisher1 {
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.textfisher2 {
+	font-size: 30px;
+	margin-top: 70px;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Pagination links */
+.pagination a {
+	color: black;
+	float: left;
+	padding: 13px 13px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border-radius: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+	background-color: dodgerblue;
+	color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+ /* Додати відгук */
+ .Add_a_review {
+	width: 100%;
+	height: 600px;
+	background-color: rgba(129, 208, 232, 0.5);
+  }
+  
+  .topnav1,
+  .topnav2 {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-left: 20px;
+  position: relative;
+  }
+  
+  .topnav1 input[type=text] { 
+  padding: 10px;
+  font-size: 25px;
+  width: calc(100%);
+  border:none;
+  outline:none;
+  height:auto;
+  resize:none;
+  }
+  
+  .topnav2 textarea { 
+	padding: 10px;
+	font-size: 25px;
+	width: calc(100%);
+	border:none;
+	outline:none;
+	height:250px;
+	resize:none;
+  }
+  
+  .buttonsave {
+	  width: 200px;
+	  height: 50px;
+	  font-size: 25px;
+	  text-align: center;
+	  border-radius: 15px;
+	  background-color: #71A1D1;
+	  color: #111;
+	margin-top: 40px;
+	border:none;
+	}
+
+
+/* Меню */
+.cardplud {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;;
+}
+
+.cardfood {
+	width: 20rem; 
+	background-color: #81D0E8; 
+	border-radius: 20px; 
+	border:none;
+}
+
+.buttonfood {
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #fff;
+	border:none;
+}
+
+/* Свіжа та смачна риба від “Fishers” */
+.textfisher1 {
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.textfisher2 {
+	font-size: 30px;
+	margin-top: 100px;
+	position: relative; 
+	z-index: 1; 
+}
+
+.buttonfisher1 {
+	width: 200px;
+	height: 50px;
+	margin-top: 70px;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #71A1D1;
+	color: #ffffff;
+	border:none;
+	box-shadow: 0 0 5px grey;
+}
+
+.buttonfisher2 {
+	width: 200px;
+	height: 50px;
+	margin-top: 70px;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #81D0E8;
+	color: #ffffff;
+	border:none;
+	box-shadow: 0 0 5px grey;
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Це вирівнює елементи по центру горизонтально */
+    }
+    .ppp:nth-child(1) {
+        order: 2;
+    }
+    .ppp:nth-child(2) {
+        order: 1;
+        margin-top: 20px; /* Додатковий маргін для вирівнювання від navbar */
+    }
+    .transform {
+        transform: rotate(-90deg);
+        margin-top: -115px; /* Зменшення відступу зверху */
+    }
+}
+
+
+
+
+/* Описання */
+
+.description {
+	font-size: 25px; 
+	margin-top: 0; 
+	color: #71A1D1;
+	list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.cardmenu {
+	border-radius: 20px; 
+	background-color: #81D0E8; 
+	color: #fff; 
+	border:none;
+}
+
+
+/* Зображення */
+.scale {
+	transition: transform 1s;
+}
+
+.scale:hover {
+	transform: scale(1.1);
+}
+
+.scale2 {
+	transition: transform 1s;
+}
+
+.scale2:hover {
+	transform: scale(0.9);
+}
+
+/* Рибки */
+
+.ribki {
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	margin-top: 70px;
+}
+
+.ribki2 {
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	margin-top: 180px;
+	margin-left: 60px;
+}
+
+.ribki3 {
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	margin-top: 100px;
+	margin-left: 900px;
+}
+
+.ribki4 {
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	margin-top: -40px;
+}
+
+.ribki5 {
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	margin-top: 200px;
+	margin-left: 1000px;
+}
+
+@media (min-width: 768px) and (max-width: 1124px) {
+    .row-reverse-md {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 535px) {
+    .pagination {
+        flex-wrap: wrap; /* Дозволяє елементам обгортати ряди */
+    }
+
+    .pagination a {
+        margin: 5px; /* Зменшує відступи між елементами */
+    }
+}
+
+@media (max-width: 535px) {
+    .pagination img {
+        display: none;
+    }
+}
+
+
+
